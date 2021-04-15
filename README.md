@@ -8,3 +8,4 @@ This is simple implement of Noisy Student(https://arxiv.org/pdf/1911.04252.pdf) 
 
 ## Procedure
 Follow the procedure of Noisy Student. First train a teacher model with labeled data -> use teacher model to generate pseudo-label on unlabeled data -> filter the pseudo-labeled data by confidence -> balance the number of data for each class -> combine labeled data and pseudo-labeled data -> train a student model on new dataset -> make student model as teacher model and repeat the procedure.
+Note that in the original paper, they perform augmentation in both data and model, In data augmentation, RandAugment is used. In model augmentation, dropout and stochastic depth is used. However, this sample did'nt use stochastic depth because the dataset is too small to build a deep model.
