@@ -7,4 +7,4 @@ This is simple implement of Noisy Student(https://arxiv.org/pdf/1911.04252.pdf) 
 
 
 ## Procedure
-Follow the procedure of Noisy Student. First train a teacher model with labeled data -> generate pseudo-label on unlabeled training data by teacher model -> filter the unlabeled data by confidence -> balance the number of data for each class -> combine labeled data and pseudo-labeled data -> train a new student model on new dataset -> make student model as teacher model and repeat the procedure.
+Follow the procedure of Noisy Student. First train a teacher model with labeled data -> use teacher model to generate pseudo-label on unlabeled data -> filter the pseudo-labeled data by confidence -> balance the number of data for each class -> combine labeled data and pseudo-labeled data -> train a student model on new dataset -> make student model as teacher model and repeat the procedure.
