@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/56825699/114810188-212f9880-9dde-11eb-8fac-50dd0914c719.png)
 # Noisy-Student_sample
 This is simple implement of Noisy Student(https://arxiv.org/pdf/1911.04252.pdf) on HW3 of NTU-ML-2021-spring set up by prof.李宏毅 (Hung-yi Lee).The dataset is food-11 by removing part of label on training data.There are 11 class, 3,080 labeled training data, 6,786 unlabeled training data.
 
