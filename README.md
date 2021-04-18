@@ -6,7 +6,7 @@ This is simple implement of Noisy Student(https://arxiv.org/pdf/1911.04252.pdf) 
 ![image](https://user-images.githubusercontent.com/56825699/114810034-ddd52a00-9ddd-11eb-978b-b14e0bb55283.png)
 
 ## Experiment Result
-![image](https://github.com/AppleHank/Image/blob/main/Webp.net-gifmaker%20(2).gif)
+![image](https://github.com/AppleHank/Noisy-Student_sample/blob/main/training_plot.gif)
 | Generation | Top Val Acc |
 |:----------:|:-----------:|
 |      1     |     65.7    |
